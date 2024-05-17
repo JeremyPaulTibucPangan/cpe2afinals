@@ -1,0 +1,49 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.CalcContainer {
+  width: 353px;
+  margin: auto;
+  border: 2px solid #e40505;
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.CalcDisplay {
+  border: 1px solid #f70d0d;
+  border-radius: 5px;
+  background-color: #df7881;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.CalcButton {
+  padding: 15px;
+  border: 1px solid #f01212;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.CalcButton:hover {
+  background-color: #c21111;
+}
+
+.CalcButton:active {
+  transform: translateY(2px);
+}
